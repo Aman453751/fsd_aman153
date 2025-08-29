@@ -4,13 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            
+        }
+        td{
+            background-color: paleturquoise;
+    
+        }
+        th,td{
+            border: 2px solid black;
+            border-radius: 10px;
+            border-style: dashed;
+            text-align: center;
+            padding: 50px;
+            border-spacing: 50px;
+            
+        }
+        td:nth-child(even){
+            background-color: rgb(137, 234, 137);
+        }
+        tr:nth-child(odd){
+            background-color: rgb(155, 155, 250);
+        }
+        td:hover{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
-    <h1>  HEADING </h1>
-    <h2> HEADING </h2>
-    <h3> HEADING </h3>
-    <h4> HEADING </h4>
-    <h5> HEADING </h5>
-    <h6> HEADING </h6>
+    <table style="width:250px;">
+        <caption> Student details</caption>
+        <colgroup>
+        
+        <tr>
+            <!-- colspan do coloum ko merge kar deta hai row ke liye row span  -->
+        <!-- <th> S.no</th> -->
+        <th colspan="2">Name</th>
+        <th>roll no.</th>
+        </tr>
+        </colgroup>
+        <tr>
+            <td>1</td>
+            <td>aman</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>kartik</td>
+            <td>456</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Pari</td>
+            <td>789</td>
+        </tr>
+    </table>
+ <!-- orddered list -->
+    <ol>
+        <li>cofee</li>
+       <li>TEA</li>
+     </ol>
+     
+
+    </table>
 </body>
 </html>
