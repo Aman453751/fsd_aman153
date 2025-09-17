@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; 
+      align-items: center;     
+      background: pink;
+      
+ }
+h2{
+    text-align: center;
+    color: white;
+    background-color: red;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name,.email,.password,.gender,.country,.message{
+    font-weight: bolder;
+    color: blue;
+    padding: 20px;
+    
+}
+.sumbit{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.message{
+    width: 249px;
+    height: 149px;
+}
+.form-container {
+      width: 400px;
+      margin: auto; /* center horizontally */
+      border: 3px solid black;  /* outer border */
+      border-radius: 10px;
+      padding: 20px;
+      background: grey;
+}
+
+    
+    
