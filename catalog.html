@@ -1,0 +1,84 @@
+<!-- Aman Choudhary(2400320100153) -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Book Catalogue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background: #d88a2a;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .thumb {
+            width: 60px;
+        }
+
+        .add-btn {
+            background: #2a7;
+            color: white;
+            padding: 6px 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Book Catalogue</h1>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Add to Cart</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BK101</td>
+                <td><img class="thumb"
+                        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.interviewbit.com%2Fblog%2Fhtml-css-books%2F&psig=AOvVaw31nXjew2mKrTxkAGTZUfnj&ust=1764141121231000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPj9r_nfjJEDFQAAAAAdAAAAABAL"
+                        alt="book"> HTML & CSS Basic0s</td>
+                <td>$25</td>
+                <td><button class="add-btn" onclick="alert('Added BK101')">Add to Cart</button></td>
+            </tr>
+            <tr>
+                <td>BK102</td>
+                <td><img class="thumb" src="https://1000logos.net/java-logo/" alt="book"> Java Programming</td>
+                <td>$35</td>
+                <td><button class="add-btn" onclick="alert('Added BK102')">Add to Cart</button></td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</body>
+
+</html>
