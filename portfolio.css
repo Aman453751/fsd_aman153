@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2540;
+    padding: 15px 50px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00d4ff;
+}
+
+/* Home */
+.home {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #0a2540, #1e3c72);
+    color: white;
+}
+
+.home span {
+    color: #00d4ff;
+}
+
+.home button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    background-color: #00d4ff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 60px 80px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0a2540;
+}
+
+/* About */
+.about p {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Skills */
+.skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-box span {
+    background-color: #0a2540;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 750px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+}
+
+.contact button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #0a2540;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #0a2540;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
